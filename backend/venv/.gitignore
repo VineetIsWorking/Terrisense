@@ -1,0 +1,52 @@
+# # Created by venv; see https://docs.python.org/3/library/venv.html
+# # --- System ---
+# .DS_Store
+# Thumbs.db
+
+# # --- Python / Backend ---
+# __pycache__/
+# *.pyc
+# *.pyo
+# *.pyd
+# venv/
+# .venv/
+# env/
+# backend/venv/
+
+# # --- Node / Frontend ---
+# node_modules/
+# frontend/node_modules/
+# .next/
+# dist/
+# build/
+# coverage/
+
+# # --- Environment Variables (Security) ---
+# .env
+# .env.local
+# Ignore venv anywhere in the project
+**/venv/
+**/env/
+**/Lib/
+**/site-packages/
+
+# Python junk
+__pycache__/
+*.pyc
+
+# dules (frontend dependencies)
+node_modules/
+
+
+# Ignore the entire virtual environment folder
+backend/venv/
+
+# Safety net: Ignore common Python environment folders anywhere
+**/venv/
+**/Scripts/
+**/Lib/
+**/__pycache__/
+
+# Frontend junk
+node_modules/
+.next/
