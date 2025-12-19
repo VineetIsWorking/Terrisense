@@ -92,10 +92,9 @@ export default function Dashboard() {
     formData.append("column_config", JSON.stringify(configObject));
 
     // 3. Send Request
-    const url = endpoint === 'map' 
-      ? 'http://localhost:8000/optimize_map' 
-      : 'http://localhost:8000/optimize_excel';
-    
+const url = endpoint === 'map' 
+      ? 'https://terrisense.onrender.com/optimize_map' 
+      : 'https://terrisense.onrender.com/optimize_excel';    
     const setLoading = endpoint === 'map' ? setLoadingMap : setLoadingExcel;
     
     try {
