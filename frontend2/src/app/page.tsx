@@ -128,21 +128,21 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans">
       {/* HEADER */}
-      <header className="bg-white border-b border-slate-200 px-8 py-4 sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="bg-blue-600 p-2 rounded-lg">
-              <Map className="w-6 h-6 text-white" />
-            </div>
-            <h1 className="text-xl font-bold tracking-tight text-slate-800">
-              TerriSense <span className="text-slate-400 font-normal">v2.0</span>
-            </h1>
-          </div>
-          <div className="text-sm text-slate-500">
-            AlignOne-Stop Solution for Optimized Territory Alignment and Omnichannel Targeting Using Capacitated K-Means Clustering
-          </div>
-        </div>
-      </header>
+      <header className="bg-white border-b border-slate-200 px-8 py-2 sticky top-0 z-10">
+  <div className="max-w-7xl mx-auto flex items-center justify-between">
+    
+    {/* LEFT SIDE: Logo */}
+    <div className="p-0 rounded-lg">
+      <img 
+        src="/images/T_logo.png" 
+        alt="logo" 
+        className="h-20 w-auto" 
+      />
+    </div>
+
+
+  </div>
+</header>
 
       {/* MAIN CONTENT */}
       <main className="max-w-7xl mx-auto px-6 py-8">
